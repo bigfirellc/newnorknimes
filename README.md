@@ -4,8 +4,6 @@
 
 New Nork Nimes searches nytimes.com for all headlines in a given year and month, and returns a list of all two-word alliterations ("nimes") used in the headlines. New Nork Nimes is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) app, using [Bootstrap](https://getbootstrap.com/) for styling. 
 
-You can sometimes see a running example at https://useful-molly-intimate.ngrok-free.app.
-
 ## Installing
 New Nork Nimes runs on Python 3.10. 
 
