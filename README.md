@@ -58,5 +58,6 @@ Open your browser to http://127.0.0.1:5000. Enjoy New Nork Nimes.
 - Make it look a little nicer
 - Instructions for deploying with UWSGI
 - Instructions for deploying with ngrok
+- Ability to visually create refridgerator magnet poetry by selecting different nimes in a given month
 
 &copy; 2023 Big Fire LLC
