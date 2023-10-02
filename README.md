@@ -58,7 +58,7 @@ Press CTRL+C to quit
 
 Open your browser to http://127.0.0.1:5000. Enjoy New Nork Nimes.
 
-![New Nork Nimes](/assets/images/screenshot.png)
+![New Nork Nimes](/assets/images/screenshot2.png)
 
 ## To Do
 - Load data into Pandas DataFrame for more analysis and outputs
