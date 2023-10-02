@@ -2,7 +2,7 @@
 
 #### Nll Nhe News Nhat's Nit No Nrint
 
-New Nork Nimes searches nytimes.com for all headlines in a given year and month, and returns a list of all two-word alliterations ("nimes") used in the headlines. New Nork Nimes is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) app, using [Bootstrap](https://getbootstrap.com/) for styling. 
+New Nork Nimes searches nytimes.com for all headlines in a given year and month, and returns a list of all two-word alliterations ("nimes") used in the headlines. New Nork Nimes is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) app, using [Bootstrap](https://getbootstrap.com/) for styling, and [pynytimes](https://pynytimes.michadenheijer.com/) for API calls.
 
 ## Installing
 New Nork Nimes runs on Python 3.10. 
@@ -36,6 +36,13 @@ Pipenv should have installed all of the requirements from the Pipfile, but if it
 ```bash
 $ pipenv install -r requirements.txt
 ```
+## Configuration
+Sign up for an account at [New York Times Developer](https://developer.nytimes.com). Create an app and an API key. Move `config-example.ini` to `config.ini`, and add your API key in there.
+
+```ini
+[nytimes]
+API_KEY=blahblahblabhlabhlabhblbhablhablhablh
+```
 
 ## Running
 New Nork Nimes only runs in development mode at the moment. Tell flask to run it.
@@ -50,6 +57,8 @@ Press CTRL+C to quit
 ```
 
 Open your browser to http://127.0.0.1:5000. Enjoy New Nork Nimes.
+
+![New Nork Nimes](/assets/images/screenshot.png)
 
 ## To Do
 - Load data into Pandas DataFrame for more analysis and outputs
