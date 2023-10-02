@@ -1,6 +1,6 @@
 # 📰 New Nork Nimes
 
-##### Nll Nhe News Nhat's Nit No Nrint
+#### Nll Nhe News Nhat's Nit No Nrint
 
 New Nork Nimes searches nytimes.com for all headlines in a given year and month, and returns a list of all two-word alliterations ("nimes") used in the headlines. New Nork Nimes is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) app, using [Bootstrap](https://getbootstrap.com/) for styling. 
 
